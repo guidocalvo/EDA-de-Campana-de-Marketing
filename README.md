@@ -71,8 +71,11 @@ A lo largo del proyecto tienes que cubrir los siguientes puntos:
 
 
 ├── data/          # Archivos de datos originales y procesados
+
 ├── notebooks/     # Jupyter Notebooks del análisis
+
 ├── src/           # Funciones auxiliares
+
 └── README.md      # Descripción del proyecto
 
 
