@@ -137,10 +137,12 @@ date, contact_year y contact_month - tiene 248 valores nulos (0,57%).
 
 Los valores nulos de las columnas job, education, date, contact_month, contact_year, housing y housing_str, serán reemplazados por la una nueva categoría llamada unknown ya que ninguna de sus respectivas categorías destaca sobre el resto.
 
-Los valores nulos de las columnas marital, default, default_str, loan y loan_str, serán reemplazados por su respectiva moda ya que se destacan sobre el resto de los valores. ··
+Los valores nulos de las columnas marital, default, default_str, loan y loan_str, serán reemplazados por su respectiva moda ya que se destacan sobre el resto de los valores.
+
 
 
 ### Outliers numéricos
+
 
 campaign - tiene 2504 valores outliers (5,82%).
 
@@ -150,10 +152,12 @@ age - tiene 441 valores outliers (1,03%).
 
 cons.conf.idx - tiene 477 valores outliers (1,11%).
 
-Borramos los outliers de age y cons.conf.idx ya que representan menos del 5% de los datos. ··
+Borramos los outliers de age y cons.conf.idx ya que representan menos del 5% de los datos.
+
 
 
 ### Nulos numéricos
+
 
 age – tiene 997 valores nulos (12,93%).
 
@@ -192,7 +196,7 @@ A partir del análisis exploratorio realizado, se pueden extraer las siguientes 
 
 - Por último, las variables relacionadas con el contexto económico, como la variación en la tasa de empleo y los indicadores de precios al consumidor, no muestran una relación clara con la decisión de suscripción, lo que indica que su impacto en este conjunto de datos es reducido.
 
-- En conjunto, el análisis sugiere que las variables asociadas a la estrategia de contacto y al perfil etario del cliente tienen un mayor impacto en la aceptación del producto, mientras que los factores demográficos y macroeconómicos presentan una influencia limitada.
+En conjunto, el análisis sugiere que las variables asociadas a la estrategia de contacto y al perfil etario del cliente tienen un mayor impacto en la aceptación del producto, mientras que los factores demográficos y macroeconómicos presentan una influencia limitada.
 
 
 ## 🤝 Contribuciones
