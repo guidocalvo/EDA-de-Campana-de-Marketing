@@ -3,7 +3,8 @@
 
 ## 📖 Descripción del Proyecto
 
-Este proyecto realiza un Análisis Exploratorio de Datos (EDA) correspondiente a campañas de marketing directo realizadas por una institución bancaria portuguesa.  
+Este proyecto realiza un Análisis Exploratorio de Datos (EDA) correspondiente a campañas de marketing directo realizadas por una institución bancaria portuguesa.
+
 Las campañas se llevaron a cabo principalmente mediante llamadas telefónicas, y en muchos casos fue necesario contactar al mismo cliente más de una vez para determinar si el producto ofrecido (un depósito a plazo) sería finalmente suscrito.
 
 El objetivo principal del análisis es identificar los factores que influyen en la decisión del cliente y obtener conclusiones relevantes a partir de los datos.
