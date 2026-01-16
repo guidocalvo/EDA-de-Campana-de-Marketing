@@ -8,7 +8,6 @@ Las campañas se llevaron a cabo principalmente mediante llamadas telefónicas, 
 
 El objetivo principal del análisis es identificar los factores que influyen en la decisión del cliente y obtener conclusiones relevantes a partir de los datos.
 
----
 
 ## 📂 Descripción de los Datos
 
@@ -42,7 +41,6 @@ Contiene información relacionada con las campañas de marketing y variables mac
 - `contact_year`: Año del contacto.
 - `id_`: Identificador único del cliente.
 
----
 
 ### Dataset 2: `customer-details.xlsx`
 
@@ -58,7 +56,6 @@ Contiene tres hojas, correspondientes a diferentes años, que fueron unificadas 
 - `NumWebVisitsMonth`: Visitas mensuales al sitio web.
 - `ID`: Identificador único del cliente
 
----
 
 ## ✅ Requisitos del proyecto
 
@@ -69,7 +66,6 @@ A lo largo del proyecto tienes que cubrir los siguientes puntos:
 - Visualización de los datos.
 - Informe explicativo del análisis.
 
----
 
 ## 🗂️ Estructura del Proyecto
 
@@ -79,7 +75,6 @@ A lo largo del proyecto tienes que cubrir los siguientes puntos:
 ├── src/           # Funciones auxiliares
 └── README.md      # Descripción del proyecto
 
----
 
 ## 📥 Primera lectura de los datos y unión en un archivo común
 
