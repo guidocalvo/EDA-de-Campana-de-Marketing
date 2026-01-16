@@ -204,6 +204,6 @@ En conjunto, el análisis sugiere que las variables asociadas a la estrategia de
 Las contribuciones son bienvenidas. Puedes sugerir nuevas consultas, correcciones o mejoras estructurales.
 
 
-## ✍️ Autores
+## ✍️ Autor
 
 Guido Julián Calvo Sio
