@@ -137,7 +137,7 @@ date, contact_year y contact_month - tiene 248 valores nulos (0,57%).
 
 Los valores nulos de las columnas job, education, date, contact_month, contact_year, housing y housing_str, serán reemplazados por la una nueva categoría llamada unknown ya que ninguna de sus respectivas categorías destaca sobre el resto.
 
-Los valores nulos de las columnas marital, default, default_str, loan y loan_str, serán reemplazados por su respectiva moda ya que se destacan sobre el resto de los valores.
+Los valores nulos de las columnas marital, default, default_str, loan y loan_str, serán reemplazados por su respectiva moda ya que se destacan sobre el resto de los valores. ··
 
 
 ### Outliers numéricos
@@ -150,7 +150,7 @@ age - tiene 441 valores outliers (1,03%).
 
 cons.conf.idx - tiene 477 valores outliers (1,11%).
 
-Borramos los outliers de age y cons.conf.idx ya que representan menos del 5% de los datos.
+Borramos los outliers de age y cons.conf.idx ya que representan menos del 5% de los datos. ··
 
 
 ### Nulos numéricos
@@ -162,6 +162,7 @@ cons.price.idx – tiene 471 valores nulos (1.10%).
 cons.conf.idx – tiene 477 valores nulos (1.11%).
 
 euribor3m – tiene 9256 valores nulos (21.53%).
+
 
 Como cons.price.idx y cons.conf.idx tienen un porcentaje de nulos muy pequeño vamos a eliminarlos y rellenamos los valores de nulos de age con la mediana.
 
@@ -179,19 +180,19 @@ En esta sección se analizan las principales variables de la base de datos Bank 
 
 A partir del análisis exploratorio realizado, se pueden extraer las siguientes conclusiones principales:
 
-La variable objetivo se encuentra fuertemente desbalanceada, ya que la gran mayoría de los clientes no se han suscrito al producto ofrecido. Esto es un aspecto relevante a considerar en etapas posteriores de modelado.
+- La variable objetivo se encuentra fuertemente desbalanceada, ya que la gran mayoría de los clientes no se han suscrito al producto ofrecido. Esto es un aspecto relevante a considerar en etapas posteriores de modelado.
 
-La edad del cliente muestra una influencia clara en la decisión de suscripción. Se observan tasas de aceptación más elevadas en personas menores de 30 años y mayores de 60, destacándose especialmente los estudiantes y jubilados como los grupos con mayor probabilidad de suscripción.
+- La edad del cliente muestra una influencia clara en la decisión de suscripción. Se observan tasas de aceptación más elevadas en personas menores de 30 años y mayores de 60, destacándose especialmente los estudiantes y jubilados como los grupos con mayor probabilidad de suscripción.
 
-Las variables demográficas tradicionales como estado civil, nivel de ingresos, número de hijos o cantidad de visitas a la web no presentan diferencias significativas en las tasas de aceptación.
+- Las variables demográficas tradicionales como estado civil, nivel de ingresos, número de hijos o cantidad de visitas a la web no presentan diferencias significativas en las tasas de aceptación.
 
-En relación con la frecuencia de contacto, se observa que el mayor porcentaje de éxito ocurre cuando el cliente es contactado entre una y dos veces, lo que sugiere que los clientes interesados tienden a aceptar la propuesta rápidamente. Asimismo, el número de contactos realizados en campañas previas parece influir, ya que las mayores tasas de suscripción se concentran entre dos y seis contactos anteriores.
+- En relación con la frecuencia de contacto, se observa que el mayor porcentaje de éxito ocurre cuando el cliente es contactado entre una y dos veces, lo que sugiere que los clientes interesados tienden a aceptar la propuesta rápidamente. Asimismo, el número de contactos realizados en campañas previas parece influir, ya que las mayores tasas de suscripción se concentran entre dos y seis contactos anteriores.
 
-El tipo de contacto también resulta relevante: las llamadas realizadas a teléfonos móviles presentan una mayor tasa de suscripción en comparación con las realizadas a teléfonos fijos.
+- El tipo de contacto también resulta relevante: las llamadas realizadas a teléfonos móviles presentan una mayor tasa de suscripción en comparación con las realizadas a teléfonos fijos.
 
-En cambio, las variables relacionadas con el contexto económico, como la variación en la tasa de empleo y los indicadores de precios al consumidor, no muestran una relación clara con la decisión de suscripción, lo que indica que su impacto en este conjunto de datos es reducido.
+- Por último, las variables relacionadas con el contexto económico, como la variación en la tasa de empleo y los indicadores de precios al consumidor, no muestran una relación clara con la decisión de suscripción, lo que indica que su impacto en este conjunto de datos es reducido.
 
-En conjunto, el análisis sugiere que las variables asociadas a la estrategia de contacto y al perfil etario del cliente tienen un mayor impacto en la aceptación del producto, mientras que los factores demográficos y macroeconómicos presentan una influencia limitada.
+- En conjunto, el análisis sugiere que las variables asociadas a la estrategia de contacto y al perfil etario del cliente tienen un mayor impacto en la aceptación del producto, mientras que los factores demográficos y macroeconómicos presentan una influencia limitada.
 
 
 ## 🤝 Contribuciones
